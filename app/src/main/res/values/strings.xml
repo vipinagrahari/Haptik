@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Haptik</string>
+    <string name="fragment_message_list">Chatroom</string>
+    <string name="fragment_stats">Summary</string>
+    <string name="add_favourite">Mark this message as favourite</string>
+    <string name="message_success">Operation Successful</string>
+    <string name="message_failure">Operation Failed</string>
+</resources>

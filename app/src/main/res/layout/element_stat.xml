@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <io.github.vipinagrahari.haptik.util.RoundImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="@dimen/img_avatar"
+        android:layout_height="@dimen/img_avatar"
+        android:src="@drawable/placeholder"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:layout_marginLeft="@dimen/text_margin_start"
+        android:layout_marginStart="@dimen/text_margin_start"
+        android:layout_toEndOf="@+id/img_avatar"
+        android:layout_toRightOf="@+id/img_avatar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:text="Sherlock " />
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_alignStart="@id/tv_name"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="5 messages" />
+    <ImageView
+        android:id="@+id/img_fav"
+        android:src="@drawable/ic_favorite_filled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/img_fav"
+        android:layout_toStartOf="@id/img_fav"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text=" 5 "
+         />
+
+
+
+
+</RelativeLayout>
